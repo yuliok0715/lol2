@@ -18,14 +18,18 @@ public class Rozetka extends BasePage {
     @FindBy(id = "cart_block97704")
     Button bucket;
 
-    @FindBy(css = "[class = \"slider-i-td available \"], [class = \"slider-i-td limited \"]")
+    @FindBy(css = ".g-i-table > div:first-child> .g-i-td")
     private List<Html_label> allLabels;
 
-
     public void buy_something(String name){
-        for(Html_label iter: allLabels)
-            if (iter.findElement(By.xpath(".//*[@class = \"g-title\"]")).getText().contains(name))
-                iter.findElement(By.xpath(".//*[@class = \"g-buy\"]")).click();
+        int i = 0;
+        while (true){
+            Html_label iter = allLabels.get(i);
+            if (iter.findElement(By.xpath(".//*[@class=\"g-title g-title-elipsis\"]/a")).getText().contains(name)){
+                iter.findElement(By.xpath(".//*[@class=\"g-buy\"]")).click();
+                break;}
+            i++;
+        }
     }
     public void  go_to_bucket(){
         bucket.click();
