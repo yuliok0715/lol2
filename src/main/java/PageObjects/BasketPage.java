@@ -2,12 +2,14 @@ package PageObjects;
 
 import Elements.*;
 import Waiter.Waiter;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
+import static Waiter.Waiter.Wait;
 import static Waiter.Waiter.waitForClick;
 
 public class BasketPage extends BasePage {
@@ -34,13 +36,14 @@ public class BasketPage extends BasePage {
     @FindBy(name = "minus")
     private Html_label buttonMinus;
 
-    @FindBy(xpath = ".//*[@id='cart-popup']/div[2]/div[1]/div[2]/div/div[2]/div[2]/div[2]/div[3]/input")
+    @FindBy(name = "quantity")
     private TextField number_of_item;
 
     @FindBy(css = "scc .cart-check-icon.sprite")
     private Button buttonDelItem;
 
-
+    @FindBy(css = ".popup-close-icon.sprite")
+    private Button buttonCloseBucket;
 
     public void confirm_order(){
         waitForClick(driver, confirmOrderButton,5);
@@ -53,14 +56,7 @@ public class BasketPage extends BasePage {
     }
 
     public Integer numberOfItem() {
-        char[] chars = number_of_item.getValue().toCharArray();
-        String result = "";
-        for(char ch : chars){
-            if(Character.isDigit(ch)){
-                result+=ch;
-            }
-        }
-        return Integer.parseInt(result);
+        return Integer.parseInt(number_of_item.getValue());
     }
 
     public boolean PlusMinusISOK(int number1, int number2){
@@ -73,10 +69,12 @@ public class BasketPage extends BasePage {
 
     public void delItem(){
         waitForClick(driver, buttonDelItem, 5);
+        buttonDelItem.click();
     }
 
     public void delOne(){
         waitForClick(driver, buttonMinus, 5);
+        buttonMinus.click();
     }
 
     @FindBy(xpath = "//*[@id = \"cart-popup\"] //*[@class=\"g-title-link novisited\"] | //*[@class=\"novisited cart-i-title-link\"]")
@@ -87,5 +85,16 @@ public class BasketPage extends BasePage {
             if (iter.getText().contains(name)) return true;
         }
         return false;
+    }
+
+    public void setNumber_of_item(String value){
+        number_of_item.setValue(value);
+        number_of_item.sendKeys(Keys.ENTER);
+        Wait(5);
+    }
+
+    public void CloseBasket() {
+        waitForClick(driver, buttonCloseBucket, 5);
+        buttonCloseBucket.click();
     }
 }

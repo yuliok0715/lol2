@@ -83,4 +83,30 @@ public class Bucket_steps {
         BasketPage page = new BasketPage(driver);
         Assert.assertTrue(page.numberOfItem() == arg0);
     }
+
+    @And("^I set number of goods (\\d+)$")
+    public void iSetNumberOfGoods(int arg0) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        BasketPage page = new BasketPage(driver);
+        page.setNumber_of_item(Integer.toString(arg0));
+    }
+
+    @Then("^You really delete \"([^\"]*)\" item$")
+    public void del_item_from_basket(String good){
+        BasketPage page = new BasketPage(driver);
+        Assert.assertFalse(page.isOnPage(good));
+    }
+
+    @When("^I click minus to delete one copy$")
+    public void iClickMinusTodelOne() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        BasketPage page = new BasketPage(driver);
+        page.delOne();}
+
+    @And("^I close bucket$")
+    public void iCloseBucket() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        BasketPage page = new BasketPage(driver);
+        page.CloseBasket();
+    }
 }

@@ -8,6 +8,8 @@ import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
+import static Waiter.Waiter.waitForClick;
+
 public class Rozetka extends BasePage {
     public Rozetka(WebDriver driver){
         super(driver);
@@ -15,7 +17,7 @@ public class Rozetka extends BasePage {
     @FindBy(css = "btn-link-i")
     List<Button> buy_buttons;
 
-    @FindBy(id = "cart_block97704")
+    @FindBy(css = "hub-i-link hub-i-cart-link sprite-side whitelink")
     Button bucket;
 
     @FindBy(css = ".g-i-table > div:first-child> .g-i-td")
@@ -32,6 +34,7 @@ public class Rozetka extends BasePage {
         }
     }
     public void  go_to_bucket(){
+        waitForClick(driver, bucket, 5);
         bucket.click();
     }
 }
