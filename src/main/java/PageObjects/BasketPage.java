@@ -58,7 +58,7 @@ public class BasketPage extends BasePage {
 
     public boolean isOnPage(String name){
         for(Html_label iter: allLabels){
-            if (iter.getText().equals(name)) return true;
+            if (iter.getText().contains(name)) return true;
         }
         return false;
     }
