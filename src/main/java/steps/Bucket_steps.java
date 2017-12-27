@@ -62,5 +62,25 @@ public class Bucket_steps {
         driver.quit();
     }
 
+    @Then("^You really delete copy of this item$")
+    public void del_one_from_basket(){
+        BasketPage page = new BasketPage(driver);
+        int total_number = page.numberOfItem();
+        Assert.assertTrue(page.PlusMinusISOK(total_number,page.numberOfItem()));
+    }
 
+
+    @When("^I click plus to add one more$")
+    public void iClickPlusToAddOneMore() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        BasketPage page = new BasketPage(driver);
+        page.addOneMore();
+    }
+
+    @Then("^Number of items is (\\d+)$")
+    public void numberOfItemsIs(int arg0) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        BasketPage page = new BasketPage(driver);
+        Assert.assertTrue(page.numberOfItem() == arg0);
+    }
 }

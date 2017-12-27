@@ -1,9 +1,6 @@
 package PageObjects;
 
-import Elements.AdLabel;
-import Elements.Button;
-import Elements.Html_label;
-import Elements.Page;
+import Elements.*;
 import Waiter.Waiter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -37,6 +34,12 @@ public class BasketPage extends BasePage {
     @FindBy(name = "minus")
     private Html_label buttonMinus;
 
+    @FindBy(xpath = ".//*[@id='cart-popup']/div[2]/div[1]/div[2]/div/div[2]/div[2]/div[2]/div[3]/input")
+    private TextField number_of_item;
+
+    @FindBy(css = "scc .cart-check-icon.sprite")
+    private Button buttonDelItem;
+
 
 
     public void confirm_order(){
@@ -47,6 +50,29 @@ public class BasketPage extends BasePage {
     public void addOneMore() {
         waitForClick(driver, buttonPlus, 5);
         buttonPlus.click();
+    }
+
+    public Integer numberOfItem() {
+        char[] chars = number_of_item.getValue().toCharArray();
+        String result = "";
+        for(char ch : chars){
+            if(Character.isDigit(ch)){
+                result+=ch;
+            }
+        }
+        return Integer.parseInt(result);
+    }
+
+    public boolean PlusMinusISOK(int number1, int number2){
+        if(number1>number2){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    public void delItem(){
+        waitForClick(driver, buttonDelItem, 5);
     }
 
     public void delOne(){
