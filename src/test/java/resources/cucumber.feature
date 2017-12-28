@@ -79,9 +79,17 @@ Feature: I_HATE_ROZETKA
     Given Browser "chrome" is opened
     And Website "https://rozetka.com.ua" is opened
     When I click on "Apple"
-    And I close bucket
+    And I close basket
     And I click on "Samsung"
     And I delete "Apple"
     Then Good "Samsung" is in basket
     And Good "Apple" not in basket
+    And Browser is closed
+
+  Scenario: calculations
+    Given Browser "chrome" is opened
+    And Website "https://rozetka.com.ua" is opened
+    When I click on "Apple"
+    And I set number of goods 10
+    Then The price is 254990
     And Browser is closed

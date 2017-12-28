@@ -18,4 +18,9 @@ public final class DriverSingleton {
         return instance;
     }
 
+    public static void driverClose(WebDriver driver){
+        driver.close();
+        instance = null;
+    }
+
 }

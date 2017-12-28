@@ -1,9 +1,12 @@
 package Contexts;
 
 import Elements.Html_label;
+import Elements.TextField;
 import PageObjects.BasketPage;
 import PageObjects.ContactsPage;
 import org.openqa.selenium.Keys;
+
+import java.util.List;
 
 import static Waiter.Waiter.Wait;
 import static Waiter.Waiter.waitForClick;
@@ -21,7 +24,7 @@ public class Basket {
     }
 
     public static Integer numberOfItem(BasketPage page) {
-        return Integer.parseInt(page.getNumberOfItem().getValue());
+        return Integer.parseInt(page.getFirstNumberOfItem().getValue());
     }
 
     public static void deleteItem(BasketPage page, String name){
@@ -51,9 +54,9 @@ public class Basket {
     }
 
     public static void setNumberOfItem(BasketPage page, String value){
-        page.getNumberOfItem().setValue(value);
-        page.getNumberOfItem().sendKeys(Keys.ENTER);
-        Wait(1000);
+        page.getFirstNumberOfItem().setValue(value);
+        page.getFirstNumberOfItem().sendKeys(Keys.ENTER);
+        Wait(5000);
     }
 
     public static void closeBasket(BasketPage page) {
@@ -64,5 +67,18 @@ public class Basket {
 
     public static boolean emptyBasket(BasketPage page){
         return page.getEmptyBasket().getText().contains("пуста");
+    }
+
+    public static boolean priceIsCorrect(BasketPage page, Integer name){
+        List<TextField> prices = page.getPrices(),
+                numberOfItems = page.getNumberOfItem(),
+                resultPrices = page.getResultPrices();
+        for(int iter = 0;iter < prices.size(); iter ++){
+            if(Integer.parseInt(prices.get(iter).getText().replaceAll("[^\\d]", "")) *
+                    Integer.parseInt(numberOfItems.get(iter).getValue()) !=
+                    Integer.parseInt(resultPrices.get(iter).getText().replaceAll("[^\\d]", "")))
+                return false;
+        }
+        return true;
     }
 }

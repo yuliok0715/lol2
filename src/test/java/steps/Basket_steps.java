@@ -6,6 +6,7 @@ import PageObjects.BasketPage;
 import PageObjects.Rozetka;
 
 
+import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -18,6 +19,7 @@ import java.util.concurrent.TimeUnit;
 import static Contexts.Basket.*;
 import static Contexts.RozetkaAct.buySomething;
 import static Contexts.RozetkaAct.goToBasket;
+import static Driver.DriverSingleton.driverClose;
 import static Elements.Element.isExisting;
 import static Waiter.Waiter.Wait;
 
@@ -71,7 +73,7 @@ public class Basket_steps {
 
     @Then("^Browser is closed$")
     public void browserIsClosed(){
-        driver.quit();
+        driverClose(driver);
     }
 
 
@@ -114,5 +116,11 @@ public class Basket_steps {
     public void delete(String item) throws Throwable {
         BasketPage page = new BasketPage(driver);
         deleteItem(page, item);
+    }
+
+    @Then("^The price is (\\d+)$")
+    public void priceIs(int number) throws Throwable {
+        BasketPage page = new BasketPage(driver);
+        Assert.assertTrue(priceIsCorrect(page, number));
     }
 }

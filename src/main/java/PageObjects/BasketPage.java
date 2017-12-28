@@ -46,9 +46,13 @@ public class BasketPage extends BasePage {
     }
 
     @FindBy(name = "quantity")
-    private TextField numberOfItem;
+    private List<TextField> numberOfItem;
 
-    public TextField getNumberOfItem() {
+    public TextField getFirstNumberOfItem() {
+        return numberOfItem.get(0);
+    }
+
+    public List<TextField> getNumberOfItem() {
         return numberOfItem;
     }
 
@@ -85,6 +89,20 @@ public class BasketPage extends BasePage {
 
     public List<Html_label> getAllLabels() {
         return allLabels;
+    }
+
+    @FindBy(css = ".cart-i-price >.cart-uah")
+    private List<TextField> prices;
+
+    public List<TextField> getPrices() {
+        return prices;
+    }
+
+    @FindBy(css = ".cart-sum > span")
+    private List<TextField> resultPrices;
+
+    public List<TextField> getResultPrices() {
+        return resultPrices;
     }
 
     public void confirmOrder(){
