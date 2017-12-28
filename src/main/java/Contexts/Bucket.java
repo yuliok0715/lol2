@@ -32,6 +32,7 @@ public class Bucket {
                 page.getButtonDeleteItem().get(i).click();
                 waitForClick(page.get_driver(), page.getButtonDeleteWithoutSave().get(i), 50);
                 page.getButtonDeleteWithoutSave().get(i).click();
+                Wait(1000);
             }
             i++;
         }
@@ -52,7 +53,7 @@ public class Bucket {
     public static void setNumberOfItem(BucketPage page, String value){
         page.getNumberOfItem().setValue(value);
         page.getNumberOfItem().sendKeys(Keys.ENTER);
-        Wait(5);
+        Wait(1000);
     }
 
     public static void closeBucket(BucketPage page) {

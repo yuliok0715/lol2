@@ -29,7 +29,7 @@ public class Bucket_steps {
     }
 
     @Given("^Website \"([^\"]*)\" is opened$")
-    public void websiteIsOpened(String url) throws Throwable {
+    public void websiteIsOpened(String url) {
         driver.get(url);
     }
 
@@ -41,7 +41,6 @@ public class Bucket_steps {
         }
        else{
             buySomething(page, button);
-            Wait(10000);
         }
     }
 
