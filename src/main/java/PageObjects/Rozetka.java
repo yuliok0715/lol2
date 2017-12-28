@@ -15,26 +15,24 @@ public class Rozetka extends BasePage {
         super(driver);
     }
     @FindBy(css = "btn-link-i")
-    List<Button> buy_buttons;
+    private List<Button> buy_buttons;
 
-    @FindBy(css = "hub-i-link hub-i-cart-link sprite-side whitelink")
-    Button bucket;
+    public List<Button> getBuy_buttons() {
+        return buy_buttons;
+    }
+
+    @FindBy(css = ".hub-i-link.hub-i-cart-link.sprite-side.whitelink")
+    private Button bucket;
+
+    public Button getBucket() {
+        return bucket;
+    }
 
     @FindBy(css = ".g-i-table > div:first-child> .g-i-td")
     private List<Html_label> allLabels;
 
-    public void buy_something(String name){
-        int i = 0;
-        while (true){
-            Html_label iter = allLabels.get(i);
-            if (iter.findElement(By.xpath(".//*[@class=\"g-title g-title-elipsis\"]/a")).getText().contains(name)){
-                iter.findElement(By.xpath(".//*[@class=\"g-buy\"]")).click();
-                break;}
-            i++;
-        }
+    public List<Html_label> getAllLabels() {
+        return allLabels;
     }
-    public void  go_to_bucket(){
-        waitForClick(driver, bucket, 5);
-        bucket.click();
-    }
+
 }

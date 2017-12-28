@@ -1,13 +1,13 @@
 package Contexts;
 
-import PageObjects.BasketPage;
+import PageObjects.BucketPage;
 import PageObjects.GoodPage;
 import Waiter.Waiter;
 
 public class Good {
-    public static BasketPage buyGood(GoodPage page){
+    public static BucketPage buyGood(GoodPage page){
         page.buy_good();
         Waiter.Wait(1000);
-        return new BasketPage(page.driver);
+        return new BucketPage(page.driver);
     }
 }

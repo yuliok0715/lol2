@@ -16,7 +16,8 @@ public class TextField extends Element{
 
     public void setValue(String value){
         sendKeys(Keys.CONTROL + "a");
-        sendKeys(Keys.DELETE, value);
+        sendKeys(Keys.DELETE);
+        sendKeys(value);
     }
 
     public String getValue(){

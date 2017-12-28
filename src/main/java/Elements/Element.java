@@ -52,7 +52,7 @@ public class Element implements WebElement{
     }
 
     public boolean isDisplayed() {
-        return element.isDisplayed();
+            return element.isDisplayed();
     }
 
     public Point getLocation() {
@@ -80,5 +80,7 @@ public class Element implements WebElement{
             elem.isDisplayed();
             return true;
         } catch (NoSuchElementException ex) {return false; }
+        catch (NullPointerException ex2) {return false;}
+
     }
 }

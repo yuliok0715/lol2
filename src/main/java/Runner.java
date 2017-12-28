@@ -2,8 +2,7 @@ import cucumber.api.CucumberOptions;
 
 @CucumberOptions(
         features = "resources"
-        ,glue={"steps"}
+        ,glue={"src/test/steps"}
     )
     public class Runner {
-
     }

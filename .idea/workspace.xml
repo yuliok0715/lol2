@@ -2,10 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf8d9b38-1791-474f-94ae-ec15220a7664" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PageObjects/BasketPage.java" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/BasketPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Contexts/RozetkaAct.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/cucumber.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/Runner.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/Test_laba_7.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/steps/Bucket_steps.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Contexts/Basket.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/PageObjects/BasketPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cucumber.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Test_laba_7.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Contexts/Basket.java" afterPath="$PROJECT_DIR$/src/main/java/Contexts/Bucket.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/PageObjects/BasketPage.java" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/BucketPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Contexts/Contacts.class" afterPath="$PROJECT_DIR$/target/classes/Contexts/Contacts.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Contexts/Delivery.class" afterPath="$PROJECT_DIR$/target/classes/Contexts/Delivery.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Contexts/Filter.class" afterPath="$PROJECT_DIR$/target/classes/Contexts/Filter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Contexts/Good.class" afterPath="$PROJECT_DIR$/target/classes/Contexts/Good.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Contexts/SetOfGoods.class" afterPath="$PROJECT_DIR$/target/classes/Contexts/SetOfGoods.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Driver/DriverFactory.class" afterPath="$PROJECT_DIR$/target/classes/Driver/DriverFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Driver/DriverSingleton.class" afterPath="$PROJECT_DIR$/target/classes/Driver/DriverSingleton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Elements/AdLabel.class" afterPath="$PROJECT_DIR$/target/classes/Elements/AdLabel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Elements/Button.class" afterPath="$PROJECT_DIR$/target/classes/Elements/Button.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Elements/CheckBox.class" afterPath="$PROJECT_DIR$/target/classes/Elements/CheckBox.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Elements/CustomFieldDecorator/CustomFieldDecorator.class" afterPath="$PROJECT_DIR$/target/classes/Elements/CustomFieldDecorator/CustomFieldDecorator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Elements/CustomFieldDecorator/LocatingCustomElementListHandler.class" afterPath="$PROJECT_DIR$/target/classes/Elements/CustomFieldDecorator/LocatingCustomElementListHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Elements/CustomFieldDecorator/WrapperFactory.class" afterPath="$PROJECT_DIR$/target/classes/Elements/CustomFieldDecorator/WrapperFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Elements/Element.class" afterPath="$PROJECT_DIR$/target/classes/Elements/Element.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Elements/Html_label.class" afterPath="$PROJECT_DIR$/target/classes/Elements/Html_label.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Elements/Page.class" afterPath="$PROJECT_DIR$/target/classes/Elements/Page.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Elements/RadioButton.class" afterPath="$PROJECT_DIR$/target/classes/Elements/RadioButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Elements/TextField.class" afterPath="$PROJECT_DIR$/target/classes/Elements/TextField.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PageObjects/BasePage.class" afterPath="$PROJECT_DIR$/target/classes/PageObjects/BasePage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PageObjects/ContactsPage.class" afterPath="$PROJECT_DIR$/target/classes/PageObjects/ContactsPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PageObjects/DeliveryPage.class" afterPath="$PROJECT_DIR$/target/classes/PageObjects/DeliveryPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PageObjects/FictionBook.class" afterPath="$PROJECT_DIR$/target/classes/PageObjects/FictionBook.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PageObjects/GoodPage.class" afterPath="$PROJECT_DIR$/target/classes/PageObjects/GoodPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PageObjects/Rozetka.class" afterPath="$PROJECT_DIR$/target/classes/PageObjects/Rozetka.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Runner.class" afterPath="$PROJECT_DIR$/target/classes/Runner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Waiter/Waiter.class" afterPath="$PROJECT_DIR$/target/classes/Waiter/Waiter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/steps/Bucket_steps.class" afterPath="$PROJECT_DIR$/target/classes/steps/Bucket_steps.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Contexts/Good.java" afterPath="$PROJECT_DIR$/src/main/java/Contexts/Good.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Elements/Element.java" afterPath="$PROJECT_DIR$/src/main/java/Elements/Element.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Elements/TextField.java" afterPath="$PROJECT_DIR$/src/main/java/Elements/TextField.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PageObjects/Rozetka.java" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/Rozetka.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/steps/Bucket_steps.java" afterPath="$PROJECT_DIR$/src/main/java/steps/Bucket_steps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/cucumber.feature" afterPath="$PROJECT_DIR$/src/main/resources/cucumber.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yuliok.iml" afterPath="$PROJECT_DIR$/yuliok.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,36 +61,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Bucket.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Contexts/Bucket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bucket_steps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/steps/Bucket_steps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            <state relative-caret-position="1350">
+              <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1761#1762#0" expanded="true" />
-                <element signature="e#1790#1791#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#2004#2005#0" expanded="true" />
+                <element signature="e#2076#2077#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_laba_7.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Test_laba_7.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -55,9 +79,28 @@
       <file leaf-file-name="Rozetka.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/Rozetka.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="19" column="67" lean-forward="false" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
-              <folding />
+            <state relative-caret-position="607">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RozetkaAct.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Contexts/RozetkaAct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,47 +108,93 @@
       <file leaf-file-name="Waiter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Waiter/Waiter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="13">
               <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Element.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Elements/Element.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#1034#1035#0" expanded="true" />
-                <element signature="e#1080#1081#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextField.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Elements/TextField.java">
+      <file leaf-file-name="cucumber.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/resources/cucumber.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="463">
+              <caret line="77" column="2" lean-forward="true" selection-start-line="77" selection-start-column="2" selection-end-line="77" selection-end-column="2" />
+              <folding>
+                <element signature="e#27#252#0" expanded="false" />
+                <element signature="e#256#487#0" expanded="false" />
+                <element signature="e#491#761#0" expanded="false" />
+                <element signature="e#765#987#0" expanded="false" />
+                <element signature="e#991#1211#0" expanded="false" />
+                <element signature="e#1215#1435#0" expanded="false" />
+                <element signature="e#1439#1669#0" expanded="false" />
+                <element signature="e#1673#1890#0" expanded="false" />
+                <element signature="e#1894#2188#0" expanded="false" />
+                <element signature="e#2192#2512#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BucketPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/BucketPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="582">
+              <caret line="94" column="5" lean-forward="false" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+              <folding>
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#876#877#0" expanded="true" />
+                <element signature="e#909#910#0" expanded="true" />
+                <element signature="e#1016#1017#0" expanded="true" />
+                <element signature="e#1050#1051#0" expanded="true" />
+                <element signature="e#1160#1161#0" expanded="true" />
+                <element signature="e#1195#1196#0" expanded="true" />
+                <element signature="e#1322#1323#0" expanded="true" />
+                <element signature="e#1361#1362#0" expanded="true" />
+                <element signature="e#1478#1479#0" expanded="true" />
+                <element signature="e#1518#1519#0" expanded="true" />
+                <element signature="e#1689#1690#0" expanded="true" />
+                <element signature="e#1735#1736#0" expanded="true" />
+                <element signature="e#1873#1874#0" expanded="true" />
+                <element signature="e#1907#1908#0" expanded="true" />
+                <element signature="e#2128#2129#0" expanded="true" />
+                <element signature="e#2160#2161#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bucket_steps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/steps/Bucket_steps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1687">
+              <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasketPage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/BasketPage.java">
+      <file leaf-file-name="BasePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="44" column="45" lean-forward="true" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
-              <folding>
-                <element signature="e#1381#1382#0" expanded="true" />
-                <element signature="e#1447#1448#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="108">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomFieldDecorator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Elements/CustomFieldDecorator/CustomFieldDecorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,18 +202,8 @@
       <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cucumber.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/cucumber.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+            <state relative-caret-position="162">
+              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -139,6 +218,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>delete</find>
+      <find>delO</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -152,11 +237,19 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/steps/SimpleJBehave.story" />
-        <option value="$PROJECT_DIR$/src/main/java/Runner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Elements/Element.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Elements/TextField.java" />
         <option value="$PROJECT_DIR$/src/main/java/PageObjects/BasketPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/steps/Bucket_steps.java" />
         <option value="$PROJECT_DIR$/src/main/resources/cucumber.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/cucumber.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/Runner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/resources/cucumber.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/Contexts/Bucket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageObjects/BucketPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Contexts/Rozetka.java" />
         <option value="$PROJECT_DIR$/src/main/java/PageObjects/Rozetka.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Contexts/RozetkaAct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/steps/Bucket_steps.java" />
       </list>
     </option>
   </component>
@@ -226,7 +319,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Contexts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yuliok" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yuliok" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="PageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yuliok" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yuliok" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yuliok" type="b2602c69:ProjectViewProjectNode" />
@@ -240,16 +349,7 @@
               <item name="yuliok" type="b2602c69:ProjectViewProjectNode" />
               <item name="yuliok" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Waiter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yuliok" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yuliok" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -269,6 +369,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
@@ -284,67 +385,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: bucket is stable">
-    <configuration name="Feature: cucumber" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber java.Scenario: delete one of items">
+    <configuration name="Scenario: buy 50" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/main/resources/cucumber.feature" />
+      <option name="myFilePath" value="$PROJECT_DIR$/src/main/java/resources/cucumber.feature" />
       <option name="GLUE" value="steps" />
-      <option name="myNameFilter" value="" />
-      <option name="myGeneratedName" value="Feature: cucumber" />
+      <option name="myNameFilter" value="^buy 50$" />
+      <option name="myGeneratedName" value="Scenario: buy 50" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="yuliok" />
-      <envs />
-    </configuration>
-    <configuration name="Scenario: bucket is stable" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/main/resources/cucumber.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="myNameFilter" value="^bucket is stable$" />
-      <option name="myGeneratedName" value="Scenario: bucket is stable" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^bucket is stable$&quot;" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="yuliok" />
-      <envs />
-    </configuration>
-    <configuration name="Scenario: buy 500" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/main/resources/cucumber.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="myNameFilter" value="^buy 500$" />
-      <option name="myGeneratedName" value="Scenario: buy 500" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^buy 500$&quot;" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^buy 50$&quot;" />
       <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -361,7 +416,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/main/resources/cucumber.feature" />
+      <option name="myFilePath" value="$PROJECT_DIR$/src/main/java/resources/cucumber.feature" />
       <option name="GLUE" value="steps" />
       <option name="myNameFilter" value="^buy оne more$" />
       <option name="myGeneratedName" value="Scenario: buy оne more" />
@@ -384,13 +439,59 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/main/resources/cucumber.feature" />
+      <option name="myFilePath" value="$PROJECT_DIR$/src/main/java/resources/cucumber.feature" />
       <option name="GLUE" value="steps" />
       <option name="myNameFilter" value="^delete one copy$" />
       <option name="myGeneratedName" value="Scenario: delete one copy" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^delete one copy$&quot;" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="yuliok" />
+      <envs />
+    </configuration>
+    <configuration name="Scenario: delete one of items" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/main/java/resources/cucumber.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="myNameFilter" value="^delete one of items$" />
+      <option name="myGeneratedName" value="Scenario: delete one of items" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^delete one of items$&quot;" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="yuliok" />
+      <envs />
+    </configuration>
+    <configuration name="Scenario: two different items" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/main/java/resources/cucumber.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="myNameFilter" value="^two different items$" />
+      <option name="myGeneratedName" value="Scenario: two different items" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^two different items$&quot;" />
       <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -482,19 +583,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: cucumber" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: buy оne more" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: buy 500" />
-      <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: delete one copy" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: bucket is stable" />
+      <item index="0" class="java.lang.String" itemvalue="Cucumber java.Scenario: buy оne more" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: delete one copy" />
+      <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: buy 50" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: two different items" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: delete one of items" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Scenario: bucket is stable" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: delete one copy" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: buy 500" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: buy оne more" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber java.Feature: cucumber" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Scenario: delete one of items" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: two different items" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: buy 50" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: delete one copy" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: buy оne more" />
       </list>
     </recent_temporary>
   </component>
@@ -508,44 +609,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514398769721</updated>
-      <workItem from="1514398772786" duration="12370000" />
+      <workItem from="1514398772786" duration="31272000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__bucket_is_stable - 2017.12.27 at 23h 20m 48s.xml">
-      <configuration name="Scenario: bucket is stable" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__buy_50 - 2017.12.28 at 16h 30m 23s.xml">
+      <configuration name="Scenario: buy 50" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__bucket_is_stable - 2017.12.27 at 23h 22m 53s.xml">
-      <configuration name="Scenario: bucket is stable" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__buy_one_(1) - 2017.12.28 at 15h 38m 21s.xml">
+      <configuration name="Scenario: buy one (1)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__bucket_is_stable - 2017.12.27 at 23h 23m 58s.xml">
-      <configuration name="Scenario: bucket is stable" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__buy_one_(2) - 2017.12.28 at 15h 40m 49s.xml">
+      <configuration name="Scenario: buy one (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__bucket_is_stable - 2017.12.27 at 23h 29m 35s.xml">
-      <configuration name="Scenario: bucket is stable" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__buy_one_(2) - 2017.12.28 at 16h 27m 32s.xml">
+      <configuration name="Scenario: buy one (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__bucket_is_stable - 2017.12.27 at 23h 31m 15s.xml">
-      <configuration name="Scenario: bucket is stable" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__buy_оne_more - 2017.12.28 at 16h 28m 16s.xml">
+      <configuration name="Scenario: buy оne more" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__bucket_is_stable - 2017.12.27 at 23h 36m 54s.xml">
-      <configuration name="Scenario: bucket is stable" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__buy_оne_more - 2017.12.28 at 16h 28m 52s.xml">
+      <configuration name="Scenario: buy оne more" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__bucket_is_stable - 2017.12.27 at 23h 37m 52s.xml">
-      <configuration name="Scenario: bucket is stable" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__bucket_is_stable - 2017.12.27 at 23h 45m 46s.xml">
-      <configuration name="Scenario: bucket is stable" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__delete_one_copy - 2017.12.27 at 23h 02m 03s.xml">
+    <history-entry file="Scenario__delete_one_copy - 2017.12.28 at 16h 29m 40s.xml">
       <configuration name="Scenario: delete one copy" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__delete_one_copy - 2017.12.27 at 23h 04m 00s.xml">
-      <configuration name="Scenario: delete one copy" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__delete_one_of_items - 2017.12.28 at 15h 14m 06s.xml">
+      <configuration name="Scenario: delete one of items" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__delete_one_of_items - 2017.12.28 at 16h 32m 42s.xml">
+      <configuration name="Scenario: delete one of items" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__two_different_items - 2017.12.28 at 16h 31m 40s.xml">
+      <configuration name="Scenario: two different items" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12370000" />
+    <option name="totallyTimeSpent" value="31272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="91" y="-4" width="1841" height="1092" extended-state="6" />
@@ -559,7 +660,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16306695" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2548596" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -607,22 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Elements/TextField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Test_laba_7.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -631,62 +716,180 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Elements/CustomFieldDecorator/WrapperFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Elements/TextField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Elements/Element.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="181">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1080#1081#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/steps/Bucket_steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="65" column="14" lean-forward="false" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/cucumber.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Elements/CustomFieldDecorator/CustomFieldDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Waiter/Waiter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="13">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/steps/Bucket_steps.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/BucketPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        <state relative-caret-position="582">
+          <caret line="94" column="5" lean-forward="false" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1761#1762#0" expanded="true" />
-            <element signature="e#1790#1791#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
+            <element signature="e#1518#1519#0" expanded="true" />
+            <element signature="e#1689#1690#0" expanded="true" />
+            <element signature="e#1735#1736#0" expanded="true" />
+            <element signature="e#1873#1874#0" expanded="true" />
+            <element signature="e#1907#1908#0" expanded="true" />
+            <element signature="e#2128#2129#0" expanded="true" />
+            <element signature="e#2160#2161#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Contexts/Bucket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+          <folding>
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#2004#2005#0" expanded="true" />
+            <element signature="e#2076#2077#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/Rozetka.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="19" column="67" lean-forward="false" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cucumber.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/BasketPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="44" column="45" lean-forward="true" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+        <state relative-caret-position="607">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <element signature="e#1381#1382#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Contexts/RozetkaAct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/steps/Bucket_steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1687">
+          <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/cucumber.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="77" column="2" lean-forward="true" selection-start-line="77" selection-start-column="2" selection-end-line="77" selection-end-column="2" />
+          <folding>
+            <element signature="e#27#252#0" expanded="false" />
+            <element signature="e#256#487#0" expanded="false" />
+            <element signature="e#491#761#0" expanded="false" />
+            <element signature="e#765#987#0" expanded="false" />
+            <element signature="e#991#1211#0" expanded="false" />
+            <element signature="e#1215#1435#0" expanded="false" />
+            <element signature="e#1439#1669#0" expanded="false" />
+            <element signature="e#1673#1890#0" expanded="false" />
+            <element signature="e#1894#2188#0" expanded="false" />
+            <element signature="e#2192#2512#0" expanded="false" />
           </folding>
         </state>
       </provider>
