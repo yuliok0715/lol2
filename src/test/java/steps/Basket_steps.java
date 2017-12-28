@@ -1,7 +1,8 @@
 package steps;
 
+import Contexts.Basket;
 import Driver.DriverSingleton;
-import PageObjects.BucketPage;
+import PageObjects.BasketPage;
 import PageObjects.Rozetka;
 
 
@@ -14,13 +15,13 @@ import org.openqa.selenium.WebDriver;
 
 import java.util.concurrent.TimeUnit;
 
-import static Contexts.Bucket.*;
+import static Contexts.Basket.*;
 import static Contexts.RozetkaAct.buySomething;
-import static Contexts.RozetkaAct.goToBucket;
+import static Contexts.RozetkaAct.goToBasket;
 import static Elements.Element.isExisting;
 import static Waiter.Waiter.Wait;
 
-public class Bucket_steps {
+public class Basket_steps {
     private WebDriver driver;
     @Given("^Browser \"([^\"]*)\" is opened$")
     public void browserIsOpened(String browser){
@@ -36,17 +37,17 @@ public class Bucket_steps {
     @When("^I click on \"([^\"]*)\"$")
     public void clickOn(String button){
         Rozetka page = new Rozetka(driver);
-        if (button.equals("bucket")){
-            goToBucket(page);
+        if (button.equals("basket")){
+            goToBasket(page);
         }
        else{
             buySomething(page, button);
         }
     }
 
-    @Then("^The bucket is \"([^\"]*)\"$")
-    public void bucketIs(String flag){
-        BucketPage page = new BucketPage(driver);
+    @Then("^The basket is \"([^\"]*)\"$")
+    public void basketIs(String flag){
+        BasketPage page = new BasketPage(driver);
         if (flag.equals("opened")){
             Assert.assertTrue(isExisting(page.getPage()));}
         if (flag.equals("closed")){
@@ -55,16 +56,16 @@ public class Bucket_steps {
         }
     }
 
-    @Then("^Good \"([^\"]*)\" is in bucket$")
-    public void isInBucket(String good){
-        BucketPage page = new BucketPage(driver);
+    @Then("^Good \"([^\"]*)\" is in basket$")
+    public void goodIsInBasket(String good){
+        BasketPage page = new BasketPage(driver);
         Assert.assertTrue(isOnPage(page,good));
         Wait(5000);
     }
 
-    @Then("^Good \"([^\"]*)\" not in bucket$")
-    public void goodNotInBucket(String good) throws Throwable {
-        BucketPage page = new BucketPage(driver);
+    @Then("^Good \"([^\"]*)\" not in basket$")
+    public void goodNotInBasket(String good) throws Throwable {
+        BasketPage page = new BasketPage(driver);
         Assert.assertFalse(isOnPage(page, good));
     }
 
@@ -76,42 +77,42 @@ public class Bucket_steps {
 
     @When("^I click plus to add one more$")
     public void clickPlusToAddOneMore() throws Throwable {
-        BucketPage page = new BucketPage(driver);
+        BasketPage page = new BasketPage(driver);
         addOneMore(page);
     }
 
     @When("^I click minus to delete one copy$")
     public void clickMinusToDeleteOne() throws Throwable {
-        BucketPage page = new BucketPage(driver);
+        BasketPage page = new BasketPage(driver);
         deleteOne(page);}
 
     @Then("^Number of items is (\\d+)$")
     public void numberOfItemsIs(int number) throws Throwable {
-        BucketPage page = new BucketPage(driver);
+        BasketPage page = new BasketPage(driver);
         Assert.assertTrue(numberOfItem(page) == number);
     }
 
     @And("^I set number of goods (\\d+)$")
     public void setNumberOfGoods(int numberOfGoods) throws Throwable {
-        BucketPage page = new BucketPage(driver);
+        BasketPage page = new BasketPage(driver);
         setNumberOfItem(page, Integer.toString(numberOfGoods) );
     }
 
-    @And("^I close bucket$")
-    public void CloseBucket() throws Throwable {
-        BucketPage page = new BucketPage(driver);
-        closeBucket(page);
+    @And("^I close basket$")
+    public void closeBasket() throws Throwable {
+        BasketPage page = new BasketPage(driver);
+        Basket.closeBasket(page);
         Wait(1000); }
 
-    @Then("^Bucket is empty$")
-    public void basket_is_empty(){
-        BucketPage page = new BucketPage(driver);
-        Assert.assertTrue(emptyBucket(page));
+    @Then("^Basket is empty$")
+    public void basketIsEmpty(){
+        BasketPage page = new BasketPage(driver);
+        Assert.assertTrue(emptyBasket(page));
     }
 
     @And("^I delete \"([^\"]*)\"$")
-    public void iDelete(String item) throws Throwable {
-        BucketPage page = new BucketPage(driver);
+    public void delete(String item) throws Throwable {
+        BasketPage page = new BasketPage(driver);
         deleteItem(page, item);
     }
 }

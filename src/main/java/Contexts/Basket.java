@@ -1,30 +1,30 @@
 package Contexts;
 
 import Elements.Html_label;
-import PageObjects.BucketPage;
+import PageObjects.BasketPage;
 import PageObjects.ContactsPage;
 import org.openqa.selenium.Keys;
 
 import static Waiter.Waiter.Wait;
 import static Waiter.Waiter.waitForClick;
 
-public class Bucket {
-    public static ContactsPage confirmOrder(BucketPage page){
+public class Basket {
+    public static ContactsPage confirmOrder(BasketPage page){
         page.confirmOrder();
         return new ContactsPage(page.driver);
     }
 
 
-    public static void addOneMore(BucketPage page){
+    public static void addOneMore(BasketPage page){
         waitForClick(page.get_driver(), page.getButtonPlus(), 5);
         page.getButtonPlus().click();
     }
 
-    public static Integer numberOfItem(BucketPage page) {
+    public static Integer numberOfItem(BasketPage page) {
         return Integer.parseInt(page.getNumberOfItem().getValue());
     }
 
-    public static void deleteItem(BucketPage page, String name){
+    public static void deleteItem(BasketPage page, String name){
         int i = 0;
         while (i < page.getAllLabels().size()){
             Html_label iter = page.getAllLabels().get(i);
@@ -38,30 +38,31 @@ public class Bucket {
         }
     }
 
-    public static void deleteOne(BucketPage page){
+    public static void deleteOne(BasketPage page){
         waitForClick(page.get_driver(), page.getButtonMinus(), 5);
         page.getButtonMinus().click();
     }
 
-    public static boolean isOnPage(BucketPage page, String name){
+    public static boolean isOnPage(BasketPage page, String name){
         for(Html_label iter: page.getAllLabels()){
             if (iter.getText().contains(name)) return true;
         }
         return false;
     }
 
-    public static void setNumberOfItem(BucketPage page, String value){
+    public static void setNumberOfItem(BasketPage page, String value){
         page.getNumberOfItem().setValue(value);
         page.getNumberOfItem().sendKeys(Keys.ENTER);
         Wait(1000);
     }
 
-    public static void closeBucket(BucketPage page) {
-        waitForClick(page.get_driver(), page.getButtonCloseBucket(), 1500);
-        page.getButtonCloseBucket().click();
+    public static void closeBasket(BasketPage page) {
+        waitForClick(page.get_driver(), page.getButtonCloseBasket(), 1500);
+        page.getButtonCloseBasket().click();
     }
 
-    public static boolean emptyBucket(BucketPage page){
-        return page.getEmptyBucket().getText().contains("пуста");
+
+    public static boolean emptyBasket(BasketPage page){
+        return page.getEmptyBasket().getText().contains("пуста");
     }
 }

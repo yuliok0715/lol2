@@ -1,19 +1,17 @@
 package PageObjects;
 
 import Elements.*;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-import static Waiter.Waiter.Wait;
 import static Waiter.Waiter.waitForClick;
 
-public class BucketPage extends BasePage {
+public class BasketPage extends BasePage {
 
-    public BucketPage(WebDriver driver){
+    public BasketPage(WebDriver driver){
         super(driver);
     }
 
@@ -62,10 +60,10 @@ public class BucketPage extends BasePage {
     }
 
     @FindBy(css = ".popup-close")
-    private Button buttonCloseBucket;
+    private Button buttonCloseBasket;
 
-    public Button getButtonCloseBucket() {
-        return buttonCloseBucket;
+    public Button getButtonCloseBasket() {
+        return buttonCloseBasket;
     }
 
     @FindBy (css = ".sprite-side.novisited.cart-i-delete-link")
@@ -76,10 +74,10 @@ public class BucketPage extends BasePage {
     }
 
     @FindBy (css = ".empty-cart-title.inline.sprite-side")
-    private WebElement emptyBucket;
+    private WebElement emptyBasket;
 
-    public WebElement getEmptyBucket() {
-        return emptyBucket;
+    public WebElement getEmptyBasket() {
+        return emptyBasket;
     }
 
     @FindBy(xpath = "//*[@id = \"cart-popup\"] //*[@class=\"g-title-link novisited\"] | //*[@class=\"novisited cart-i-title-link\"]")

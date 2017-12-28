@@ -19,7 +19,7 @@ public class RozetkaAct {
             i++;
         }
     }
-    public static void goToBucket(Rozetka page){
+    public static void goToBasket(Rozetka page){
         waitForClick(page.get_driver(), page.getBucket(), 5);
         page.getBucket().click();
     }
